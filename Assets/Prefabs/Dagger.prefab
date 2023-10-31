@@ -262,6 +262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodDustParticles
       objectReference: {fileID: 0}
+    - target: {fileID: 1834176628461769361, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
       propertyPath: looping
       value: 0
@@ -275,12 +279,24 @@ PrefabInstance:
       value: 9.06
       objectReference: {fileID: 0}
     - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
+      propertyPath: RotationModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
       propertyPath: ShapeModule.radius.value
       value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
+      propertyPath: RotationModule.curve.scalar
+      value: 3.1415925
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
       propertyPath: InitialModule.maxNumParticles
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
+      propertyPath: RotationBySpeedModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
       propertyPath: InitialModule.startSize.scalar
@@ -288,11 +304,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 0.5
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
+      propertyPath: RotationBySpeedModule.curve.scalar
+      value: 3.1415925
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509572167354096681, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
+      propertyPath: RotationBySpeedModule.separateAxes
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4504398767608694259, guid: b2d699799d1ae4f4ea4d2a9f952a0ca7, type: 3}
       propertyPath: m_RootOrder
